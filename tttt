@@ -1,0 +1,45 @@
+\documentclass{article}
+
+\author{Student Name (Id:12345678)}
+\title{CSC-221: Solution to homework \#1}
+\date{8-Feb.-2019}
+
+\begin{document}
+\maketitle
+
+\begin{enumerate}
+\item You 
+can 
+always type any 
+bla bla bla text even in
+separate lines.
+
+\item But if you want to write equations, delimit it by two dollar signs: $E=mc^{2}$. 
+
+\item If you want to make a table, edit the following example. 
+
+\item Here is the truth table for $(p \vee q) \wedge r$:
+    \begin{tabular}{| c c c | c | c  |}
+        \hline
+        $p$& $q$& $r$& $(p \vee q)$& $(p \vee q) \wedge r$\\
+        \hline
+        F& F& F& F& F\\
+        F& F& T& F& F\\
+        F& T& F& T& F\\
+        F& T& T& T& T\\
+        T& F& F& T& F\\
+        T& F& T& T& T\\
+        T& T& F& T& F\\
+        T& T& T& T& T\\
+        \hline
+    \end{tabular}
+
+\item Use this if you are lazy to learn \LaTeX. It's not useful by any means.
+
+\item You may have a look here to start: https://www.tug.org/begin.html
+
+
+\end{enumerate}
+
+
+\end{document}
